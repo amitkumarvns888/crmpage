@@ -1,0 +1,382 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Public Sans';
+  /* overflow: hidden; */
+}
+
+/* reset form style */
+.resetmain{
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
+/*   style for form one  */
+.logopart {
+  position: relative;
+  top: -20px;
+}
+
+.formMain {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  position: relative;
+  top: -20px;
+}
+
+.second {
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: 'Public Sans';
+  font-size: 30px;
+  font-weight: 800;
+
+}
+
+.para {
+  font-size: 16px;
+}
+
+.mainhead {
+  width: 800px;
+}
+
+.submitbtn {
+  float: right;
+  position: relative;
+  top: -20px;
+  left: 30px;
+  background-color: #1890FF;
+}
+.recaptch{
+  margin-top: 15px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  color: blue;
+}
+
+/* required style */
+
+.req {
+  color: red;
+  position: relative;
+  right: 5px;
+  top: -2px;
+}
+
+label {
+  color: #006D75;
+  font-family: 'Public Sans';
+  font-size: 14px;
+
+}
+
+.placeholderColor::placeholder {
+  color: #36CFC9;
+  font-family: 'Public Sans';
+  font-size: 14px;
+}
+
+.captcha {
+  padding: 20px;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #F3F7F6;
+
+}
+
+.logoimg {
+  height: 40px;
+
+}
+
+/* second form style */
+.formmain2 {
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  position: relative;
+  top: -60px;
+
+}
+.form2bbtm{
+border-bottom: 1px solid rgba(var(--bs-link-color-rgb));
+}
+
+.form2loginbtn {
+  float: right;
+  position: relative;
+  top: -55px;
+}
+
+.forgetbtn {
+  color: red;
+  text-decoration: none;
+}
+
+.borderbtm {
+  width: 130px;
+  border-bottom: 2px solid #FC6765;
+}
+
+.rowdiv {
+  position: relative;
+  top: 100px;
+}
+
+.formheading2{
+  font-weight: bold;
+}
+
+/* form 3 style */
+
+.form3btn {
+  float: right;
+  position: relative;
+  top: -50px;
+}
+
+.formthree {
+  margin: auto;
+  width: 400px;
+  margin-top: 120px;
+}
+
+
+
+.form3btm{
+  border-bottom: 1px solid rgba(var(--bs-link-color-rgb));
+  width: 90px;
+
+}
+
+/* setting icon style */
+.settingiconimg {
+  float: right;
+  position: relative;
+  top: -38px;
+  width: 35px;
+}
+
+.formcompo {
+  margin-top: 10px;
+}
+
+
+/* dashborder style */
+
+.headerdash{
+  width: 650px;
+  margin: auto;
+}
+.toggalbtn{
+  position: relative;
+  left: 15rem;
+}
+.paragraph{
+  line-height: 20px;
+  text-align: center;
+  color: #8C8C8C;
+  font-size: 14px;
+}
+
+/* card style */
+.cont{
+  width: 1000px;
+}
+.cardinside{
+  width: 300px;
+  height: 243px;
+}
+.cardd{
+  height: 430px;
+  
+}
+.roww{
+  display: flex;
+  justify-content: space-evenly;
+}
+.container{
+  width: 800px;
+}
+.col-md-4{
+  height: 420px;
+}
+
+.col{
+  /* border: 2px solid #F0F0F0; */
+  width: 400px;
+  height: 420px;
+  margin-left: 16px;
+  border-radius: 5px;
+}
+.upper{
+  margin: 12px;
+}
+/* span text style */
+.hr{
+  border-bottom: 2px solid #F0F0F0;
+  
+  margin-top: 5px;
+}
+span{
+  font-size: 14px;
+}
+.trial{
+  border: 2px solid #D9D9D9;
+  text-align: center;
+  margin-top: 10px;
+  padding: 3px;
+  border-radius: 3px;
+}
+li{
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 30px;
+}
+.tickimage{
+width: 15px;
+margin-left: -20px;
+margin-right: 10px;
+}
+
+
+/* media query */
+
+@media (min-width:670px) and (max-width: 900px) {
+  
+
+  .firstimage {
+    /* Styles for screens with a maximum width of 576px */
+    float: right;
+    position: relative;
+    top: -50px;
+    
+  }
+  .logopart{
+    margin-top: 50px;
+  }
+}
+
+
+
+@media (min-width:575px) and (max-width: 670px) {
+
+
+  .firstimage {
+    /* Styles for screens with a maximum width of 576px */
+    text-align: center;
+
+  }
+
+  .logopart {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+}
+
+@media (min-width:481px) and (max-width: 575px) {
+
+ 
+
+  .firstimage {
+    /* Styles for screens with a maximum width of 576px */
+    /* float: right; */
+    position: relative;
+    left: 350px;
+
+  }
+
+  .logopart {
+    margin-top: 50px;
+    margin-left: 300px;
+  }
+    .secondmedia {
+      margin-left: -180px;
+    }
+    .recaptch{
+      position: relative;
+      left: 80px;
+    }
+    .submitbtn{
+      position: relative;
+      left: -120px;
+    }
+
+}
+@media (min-width:320px) and (max-width: 480px) {
+
+.mainhead{
+  width: 800px;
+  margin-left: 80px;
+}
+  .firstimage {
+    /* Styles for screens with a maximum width of 576px */
+    position: relative;
+      left: 400px;
+
+  }
+
+  .logopart {
+    margin-top: 30px;
+    margin-left: 250px;
+  }
+.secondmedia {
+  margin-left: -180px;
+}
+.recaptch{
+  position: relative;
+  left: 120px;
+}
+.submitbtn{
+  position: relative;
+  left: -120px;
+}
+
+}
+
+/* @media (min-width:300px) and (max-width: 575px) {
+
+
+  .firstimage { */
+    /* Styles for screens with a maximum width of 576px */
+    /* position: relative;
+    left: 150px;
+  }
+  .logopart {
+    margin-top: 30px;
+    margin-left: 125px;
+  }
+  .secondmedia {
+    margin-left: -180px;
+  }
+  .recaptch{
+    position: relative;
+    left: 120px;
+   
+  }
+  .submitbtn{
+    position: relative;
+    left: -120px;
+  }
+} */
+
+/* .abhi{
+  display: flex;
+} */

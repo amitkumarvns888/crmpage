@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans';
+    /* overflow: hidden; */
+}
+
+.logoimg {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.nextbtn {
+    position: relative;
+    top: 60px;
+    float: right;
+
+}
+
+h2 {
+    font-family: 'Public Sans';
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+/* reset btn style */
+.form3btm {
+    border-bottom: 1px solid rgba(var(--bs-link-color-rgb));
+}
+
+.resetbtn {
+    float: right;
+    margin-top: -30px;
+}
+
+
+/* validation error message */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.ctrl {
+    margin: 5px;
+}
+
+.ctrll {
+    margin-top: 15px;
+}
+
+
+/* ********************************************************************************* */
+
+/*  plane style start */
+.dashpara {
+    font-size: 14px;
+    text-align: center;
+    color: #8C8C8C;
+    line-height: 20px;
+}
+
+.trail {
+    margin-top: -26px;
+}
+
+.hrline {
+    width: 230px;
+    position: relative;
+    left: -12px;
+    top: -8px;
+}
+
+.dashparaa {
+    font-size: 14px;
+    color: #8C8C8C;
+    line-height: 20px;
+}
+
+.down {
+    margin-top: -15px;
+}
+
+.card {
+    border: 1px solid #F0F0F0;
+    height: 440px;
+    width: 235px;
+    margin: 10px;
+    position: relative;
+    top: -10px;
+}
+
+button {
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+}
+
+li {
+    font-family: 'Public Sans';
+    font-size: 14px;
+    color: #262626;
+}
+
+.price {
+    color: #262626;
+}
+
+.tickimage {
+    width: 15px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.toggalbtn {
+    position: relative;
+    left: -70px;
+    top: -10px;
+}
+
+.righttext {
+    margin-left: -58px;
+    position: relative;
+    top: -5px;
+}
+
+.leftlabel {
+    position: relative;
+    top: -8px;
+    left: 80px;
+}
+
+/* toogal label bold style */
+.bold-label {
+    font-weight: bold;
+}
+
+.light-label {
+    font-weight: normal;
+    /* or any other lighter font weight you desire */
+}
+
+
+/* reset compo style */
+.resetmain {
+    margin-top: 25px;
+}
+
+
+
+/* ********************************************************************************* */
+
+.form1col{
+    height: 520px;
+    /* width: 700px; */
+    margin-left: 20px;
+    border: 1px solid beige;
+    position: relative;
+    overflow: hidden;
+    
+}
+.uppper{
+    display: flex;
+    background-color:rgb(250, 250, 250);
+    padding: 20px;
+    width: 100%;
+    max-width: 798px;
+    border: 1px solid beige;
+    /* position: relative;
+    left: -12px; */
+    
+}
+.hline{
+    width: 170px;
+    margin: 15px  12px;
+    /* color: ; */
+}.hrlinee{
+    width: 170px;
+        margin: 15px 12px;
+}
+.hrtext{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.formdown{
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+}
+.form1pa{
+    font-size: 14px;
+
+}
+.num{
+    background-color: #1890FF;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.radiobtn{
+    padding: 15px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}
+.form1nextbtn{
+    float: right;
+    margin-top: -20px;
+}
+.form1skipbtn{
+    position: relative;
+    left: 450px;
+    text-decoration: none;
+}
+.form1skipbottomline{
+    border-bottom: 1px solid #1890FF;
+    width: 40px;
+}
+/* 
+ Form 2 style *************************************** */
+
+ .form2down {
+     font-size: 30px;
+     margin-top: 10px;
+     
+ }
+
+ .form2down {
+      height: 420px;
+     margin-top: -1px;
+     border: 1px solid beige;
+     padding-left: 15px;
+     padding-right: 15px;
+    
+     
+ }
+ .form2uppper{
+    display: flex;
+        background-color: rgb(250, 250, 250);
+        padding: 20px;
+        width: 100%;
+        max-width: 798px;
+        border: 1px solid beige;
+ }
+ .form2skipbtn{
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 600px;
+    position: relative;
+    top: 20px;
+ }
+ .form2skipbottomline{
+    margin-left: 600px;
+    border: 1px solid #1890FF;
+    width: 40px;
+ }
+ .leftcheckbox{
+    display: flex;
+    
+ }
+ .rightcheckbox{
+    margin-left: 100px;
+ }
+ /* *************************************Form 3 style start*********************** */
+ .form3uppper{
+    display: flex;
+        background-color: rgb(250, 250, 250);
+        padding: 20px;
+        width: 100%;
+        max-width: 898px;
+        border: 1px solid beige;
+ } 
+ .form3down{
+    height: 420px;
+        margin-top: -1px;
+        border: 1px solid beige;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+ }
+
+ .form3downinside{
+    margin-left: 150px;
+ }
+.form3label{
+    color: #8C8C8C;
+}
+.form3skipbtn{
+    text-decoration: none;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+.form3skipbottomline{
+    
+        border: 1px solid #1890FF;
+        width: 37px;
+}
+.form3nextbtn{
+    position: relative;
+    left: 390px;
+}
+/* *********************************************************************************** */
+
+@media (min-width:575px) and (max-width: 1010px) {
+    .image-main {
+        margin: 30px;
+        position: relative;
+        /* top: 10px; */
+        left: 60%;
+
+    }
+   
+    .form1col{
+        position: relative;
+        left: 30%;
+        height: 600px;
+    }
+    .form1nextbtn{
+       float: right;
+    }
+        .form1skipbtn{
+            margin-left: -90px;
+        }
+
+    
+
+}
+.form3choose{
+    width: 450px;
+}
+
+
+/* *********************************************************************************** */
+
+@media (min-width:481px) and (max-width: 768px) {
+    .leftForm {
+        width: 250px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .mainCompo {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+
+    }
+
+    .maintext {
+        margin-left: 130px;
+        margin-top: 60px;
+    }
+
+    .logoimg {
+        position: relative;
+
+
+    }
+
+    .rightdata {
+        margin-left: 20px;
+
+    }
+}
+
+@media (min-width:768px) and (max-width: 1010px) {
+    .logoimg {
+        float: right;
+    }
+
+    .maintext {
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 850px) {
+    .logoimg {
+        float: right;
+    }
+
+    .maintext {
+        margin-left: 10px;
+        width: 400px;
+        margin-top: 60px;
+    }
+
+}
+
+
+/* reset button media query */
+
+@media (min-width:320px) and (max-width: 480px) {
+
+
+    .resetmain {
+        justify-content: center;
+    }
+
+}
